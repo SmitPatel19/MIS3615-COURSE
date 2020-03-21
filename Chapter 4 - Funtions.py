@@ -44,5 +44,24 @@ if __name__ == '__main__':
     #it does not affect other files that import current module
     main()
 
+#-----------------------------------------------------
+#Final exercise in chapter 4 - Quadratic Function 
+import cmath
+#def Quadratic(a,b,c):
+    
+a = float(input('Enter a: ')) 
+b = float(input('Enter b: '))  
+c = float(input('Enter c: ')) 
+d = (b**2) - (4*a*c)
+sol1 = (-b-cmath.sqrt(d))/(2*a)  
+sol2 = (-b+cmath.sqrt(d))/(2*a)
+print('The solutions are {0} and {1}'.format(sol1,sol2))
+
+
+
+
+
+
+    
     
 
