@@ -16,5 +16,12 @@ encrypted_msg = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc
 
 original_msg = ""
 
-for c in encrypted_msg:
-    print(chr(ord(c)-2))
+for letter in encrypted_msg:
+    if letter.isalpha()
+    decrypted_letter = chr(ord(letter)+2)
+    else: 
+    
+    original_msg += decrypted_letter
+
+
+print(original_msg)
