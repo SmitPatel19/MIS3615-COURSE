@@ -20,3 +20,8 @@ print(f'{actor} wins Best Actor for {movie} at Golden Globes {year}')
 
 pi = 3.14159265358
 print(f'Pi equals {pi:.3}')
+
+#--------------------3/36/2020-----------------------------
+
+print('John'+'Lennon')
+print('John'*10)

@@ -17,11 +17,9 @@ encrypted_msg = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc
 original_msg = ""
 
 for letter in encrypted_msg:
-    if letter.isalpha()
-    decrypted_letter = chr(ord(letter)+2)
-    else: 
-    
-    original_msg += decrypted_letter
+    if letter >= 'a' and letter <='z':
+        original_msg += chr(((ord(letter)+2) - ord('a')) % 26 + ord('a'))
+    else:
+        original_msg += letter
 
-
-print(original_msg)
+print(f'The decrypted message after cracking the code is "{original_msg}"!')
