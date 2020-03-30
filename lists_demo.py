@@ -18,3 +18,8 @@ print(type(c))
 print(type(c[0]))
 print(type(c[-1]))
 
+#list are mutable 
+AFC_East = ['New England Patriots', 'Buffalo Bills', 'Miami Dolphins', 'New York Jets']
+AFC_East[3]= 'New York Giants'
+
+print(AFC_East[3])
