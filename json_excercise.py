@@ -23,3 +23,5 @@ pprint.pprint(response_data)
 
 #print(response_data['main'[temp[0]]])
 
+(0K − 273.15) × 9/5 + 32 = -459.7
+
