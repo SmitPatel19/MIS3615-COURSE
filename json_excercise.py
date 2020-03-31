@@ -1,6 +1,7 @@
 import urllib.request
 import json
 import pprint
+import pytemperature
 
 APIKEY = '51e01fc87a6f69d3db031cf74510b937'
 city = 'Wellesley'
@@ -23,3 +24,5 @@ pprint.pprint(response_data)
 
 #print(response_data['main'[temp[0]]])
 
+temp = print(float(response_data['main']['temp']))
+print (pytemperature.k2f(275.25)) # a package I found to convert temps!
