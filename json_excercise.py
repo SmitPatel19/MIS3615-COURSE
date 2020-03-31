@@ -25,5 +25,5 @@ pprint.pprint(response_data)
 #print(response_data['main'[temp[0]]])
 
 temp = print(float(response_data['main']['temp']))
-print (pytemperature.k2f(275.25)) # a package I found to convert temps!
+print(pytemperature.k2f(275.25)) # a package I found to convert temps!
 
